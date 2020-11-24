@@ -1,0 +1,429 @@
+{
+	"id": "61686006-d0cb-4135-b338-d3f0752823ff",
+	"name": "Louis_Edet_Mac_ API_Collection",
+	"timestamp": "2020-11-24T01:05:34.681Z",
+	"collection_id": "b175df5c-91a6-49a5-9fbe-98179aec54d0",
+	"folder_id": 0,
+	"environment_id": "138cfe82-cee9-4bd6-b4df-418342260a91",
+	"totalPass": 18,
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "711ca5b8-27cc-4537-9442-9b82234bbf25",
+			"name": "Get all employee data",
+			"url": "http://dummy.restapiexample.com/api/v1/employees",
+			"time": 279,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches string": false,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				279
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches string": false,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "bc12b643-5b5f-4b73-afb2-3efcd8b422b2",
+			"name": "Get a single employee data",
+			"url": "http://dummy.restapiexample.com/api/v1/employee/2",
+			"time": 932,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				932
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "40193729-2944-425d-88e9-a54be34c0f9e",
+			"name": "Single User",
+			"url": "https://reqres.in/api/users/3",
+			"time": 496,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				496
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8639d31f-c085-4709-8caf-6d0e0bdab313",
+			"name": "List users per page",
+			"url": "https://reqres.in/api/users?page=1",
+			"time": 272,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				272
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "75a65fff-0497-46a8-83c9-6c38191b36df",
+			"name": "doc-echo endpoint",
+			"url": "http://docs.postman-echo.com/",
+			"time": 1917,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1917
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK string": true
+				}
+			]
+		},
+		{
+			"id": "309d38f0-9c1a-4645-8cd0-0ff8bbd5a6fc",
+			"name": "Create new record in database",
+			"url": "http://dummy.restapiexample.com/api/v1/create",
+			"time": 958,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				958
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cf368917-7925-4b2e-a42b-48eb61e7dc4d",
+			"name": "Create User",
+			"url": "http://dummy.restapiexample.com/api/v1/create",
+			"time": 1009,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK string": true,
+				"Response time is less than 300,000s": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 300,000s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1009
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK string": true,
+					"Response time is less than 300,000s": true
+				}
+			]
+		},
+		{
+			"id": "4aeee736-34fd-44ec-91b2-9a987f5440cb",
+			"name": "User Login",
+			"url": "http://dummy.restapiexample.com/api/v1/create",
+			"time": 1166,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1166
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "583ba25b-1858-47af-8206-328025bad032",
+			"name": "jsonblog endpoint",
+			"url": "https://reqres.in/api/register",
+			"time": 315,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK string": true,
+				"Response time is less than 300,000s": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 300,000s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				315
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK string": true,
+					"Response time is less than 300,000s": true
+				}
+			]
+		},
+		{
+			"id": "2b30d37e-d6c4-4258-bd53-f58bb6d1e20e",
+			"name": "Update an employee record",
+			"url": "http://dummy.restapiexample.com/api/v1/update/21",
+			"time": 894,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK string": true,
+				"Response time is less than 300,000s": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 300,000s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				894
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK string": true,
+					"Response time is less than 300,000s": true
+				}
+			]
+		},
+		{
+			"id": "4836efa3-d620-41c0-b1f7-680ba78cdfd1",
+			"name": "Delete employee record",
+			"url": "http://dummy.restapiexample.com/api/v1/delete/2",
+			"time": 887,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK string": true,
+				"Response time is less than 300,000s": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 300,000s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				887
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK string": true,
+					"Response time is less than 300,000s": true
+				}
+			]
+		},
+		{
+			"id": "2e9d9485-ba98-47b6-9ef0-391d68931ce4",
+			"name": "Delete a todo per ID",
+			"url": "https://reqres.in/api/users/2",
+			"time": 320,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true,
+				"Status code name has Ok string": false,
+				"Response time is less than 200ms": false
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Ok string": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 200ms": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				320
+			],
+			"allTests": [
+				{
+					"Status code is 204": true,
+					"Status code name has Ok string": false,
+					"Response time is less than 200ms": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 9445,
+	"collection": {
+		"requests": [
+			{
+				"id": "711ca5b8-27cc-4537-9442-9b82234bbf25",
+				"method": "GET"
+			},
+			{
+				"id": "bc12b643-5b5f-4b73-afb2-3efcd8b422b2",
+				"method": "GET"
+			},
+			{
+				"id": "40193729-2944-425d-88e9-a54be34c0f9e",
+				"method": "GET"
+			},
+			{
+				"id": "8639d31f-c085-4709-8caf-6d0e0bdab313",
+				"method": "GET"
+			},
+			{
+				"id": "75a65fff-0497-46a8-83c9-6c38191b36df",
+				"method": "GET"
+			},
+			{
+				"id": "309d38f0-9c1a-4645-8cd0-0ff8bbd5a6fc",
+				"method": "POST"
+			},
+			{
+				"id": "cf368917-7925-4b2e-a42b-48eb61e7dc4d",
+				"method": "POST"
+			},
+			{
+				"id": "4aeee736-34fd-44ec-91b2-9a987f5440cb",
+				"method": "POST"
+			},
+			{
+				"id": "583ba25b-1858-47af-8206-328025bad032",
+				"method": "POST"
+			},
+			{
+				"id": "2b30d37e-d6c4-4258-bd53-f58bb6d1e20e",
+				"method": "PUT"
+			},
+			{
+				"id": "4836efa3-d620-41c0-b1f7-680ba78cdfd1",
+				"method": "DELETE"
+			},
+			{
+				"id": "2e9d9485-ba98-47b6-9ef0-391d68931ce4",
+				"method": "DELETE"
+			}
+		]
+	}
+}
